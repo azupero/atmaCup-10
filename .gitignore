@@ -1,6 +1,9 @@
+.vscode
 input/*
+!.gitkeep
 output/*
-notebook/exp/wandb
+!.gitkeep
+notebook/exp/wandb/
 
 # Created by https://www.gitignore.io/api/macos,python
 # Edit at https://www.gitignore.io/?templates=macos,python
