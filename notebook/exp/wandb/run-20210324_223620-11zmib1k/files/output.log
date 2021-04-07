@@ -1,0 +1,85 @@
+Empty DataFrame
+Columns: [object_id, name]
+Index: []
+                 object_id                                              name
+0     00133be3ff222c9b74b0  Álvarez de Toledo, Fernando (3e hertog van Alva)
+1     0026e030a0209b834b3e  Álvarez de Toledo, Fernando (3e hertog van Alva)
+2     009d44bd779a8722b00c                                    Witt, Johan de
+3     009d44bd779a8722b00c                                 Witt, Cornelis de
+4     00cd543929cbd97be573               Lodewijk XIV (koning van Frankrijk)
+...                    ...                                               ...
+1707  ff7b9c0a4a4cbaa7f7db                        Maurits (prins van Oranje)
+1708  ffbe15cc751929195346                            Musschenbroek, Sam van
+1709  ffbe15cc751929195346                              Tjomal Suikerfabriek
+1710  fff08e76cbb969eaddc7               Lodewijk XIV (koning van Frankrijk)
+1711  fff08e76cbb969eaddc7     Jacobus II (koning van Engeland en Schotland)
+
+[1712 rows x 2 columns]
+[2021-03-25 00:19:01,090] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x130924280>_fit> start]
+[2021-03-25 00:19:01,114] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x130924280>_fit> done in 0.02 s]
+[2021-03-25 00:19:01,116] [INFO] [<<__main__.CountEncodingBlock object at 0x1307582b0>_fit> start]
+[2021-03-25 00:19:01,136] [INFO] [<<__main__.CountEncodingBlock object at 0x1307582b0>_fit> done in 0.02 s]
+[2021-03-25 00:19:01,139] [INFO] [<<__main__.StringLengthBlock object at 0x130758af0>_fit> start]
+[2021-03-25 00:19:01,165] [INFO] [<<__main__.StringLengthBlock object at 0x130758af0>_fit> done in 0.03 s]
+[2021-03-25 00:19:01,168] [INFO] [<<__main__.W2vBlock object at 0x130624d90>_fit> start]
+/Users/azupero/data-science/atmaCup/atmaCup-10/.venv/lib/python3.8/site-packages/texthero/preprocessing.py:72: FutureWarning: The default value of regex will change from True to False in a future version.
+  return input.str.replace(pattern, symbols)
+/Users/azupero/data-science/atmaCup/atmaCup-10/.venv/lib/python3.8/site-packages/texthero/preprocessing.py:131: FutureWarning: The default value of regex will change from True to False in a future version.
+  return input.str.replace(rf"([{string.punctuation}])+", symbol)
+[2021-03-25 00:19:02,538] [WARNING] [consider setting layer size to a multiple of 4 for greater performance]
+[2021-03-25 00:19:02,540] [WARNING] [Each 'sentences' item should be a list of words (usually unicode strings). First item here is instead plain <class 'str'>.]
+  0%|          | 0/24034 [00:00<?, ?it/s]  5%|▌         | 1268/24034 [00:00<00:01, 12677.59it/s] 11%|█         | 2610/24034 [00:00<00:01, 13106.87it/s] 17%|█▋        | 4080/24034 [00:00<00:01, 13831.29it/s] 23%|██▎       | 5500/24034 [00:00<00:01, 13972.29it/s] 29%|██▊       | 6898/24034 [00:00<00:01, 13785.85it/s] 34%|███▍      | 8278/24034 [00:00<00:01, 13569.52it/s] 40%|████      | 9636/24034 [00:00<00:01, 13511.53it/s] 46%|████▌     | 11003/24034 [00:00<00:00, 13559.96it/s] 52%|█████▏    | 12382/24034 [00:00<00:00, 13628.82it/s] 57%|█████▋    | 13755/24034 [00:01<00:00, 13657.78it/s] 63%|██████▎   | 15123/24034 [00:01<00:00, 13663.58it/s] 69%|██████▉   | 16551/24034 [00:01<00:00, 13849.33it/s] 75%|███████▍  | 17998/24034 [00:01<00:00, 14036.15it/s] 81%|████████  | 19402/24034 [00:01<00:00, 13592.39it/s] 86%|████████▋ | 20765/24034 [00:01<00:00, 13480.44it/s] 92%|█████████▏| 22116/24034 [00:01<00:00, 13408.41it/s] 98%|█████████▊| 23542/24034 [00:01<00:00, 13658.36it/s]100%|██████████| 24034/24034 [00:01<00:00, 13533.10it/s]
+[2021-03-25 00:19:15,329] [INFO] [<<__main__.W2vBlock object at 0x130624d90>_fit> done in 14.16 s]
+[2021-03-25 00:19:15,333] [INFO] [<<__main__.W2vBlock object at 0x130624d00>_fit> start]
+[2021-03-25 00:19:19,068] [WARNING] [consider setting layer size to a multiple of 4 for greater performance]
+[2021-03-25 00:19:19,070] [WARNING] [Each 'sentences' item should be a list of words (usually unicode strings). First item here is instead plain <class 'str'>.]
+[2021-03-25 00:19:38,694] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x1304839a0>_fit> start]
+[2021-03-25 00:19:38,718] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x1304839a0>_fit> done in 0.02 s]
+[2021-03-25 00:19:38,720] [INFO] [<<__main__.CountEncodingBlock object at 0x1307581c0>_fit> start]
+[2021-03-25 00:19:38,736] [INFO] [<<__main__.CountEncodingBlock object at 0x1307581c0>_fit> done in 0.02 s]
+[2021-03-25 00:19:38,738] [INFO] [<<__main__.StringLengthBlock object at 0x13099ee20>_fit> start]
+[2021-03-25 00:19:38,758] [INFO] [<<__main__.StringLengthBlock object at 0x13099ee20>_fit> done in 0.02 s]
+[2021-03-25 00:19:38,762] [INFO] [<<__main__.CrosstabCountBlock object at 0x130586700>_fit> start]
+Error on <__main__.CrosstabCountBlock object at 0x130586700> fit. 
+[2021-03-25 00:20:41,631] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x130ae0430>_fit> start]
+[2021-03-25 00:20:41,654] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x130ae0430>_fit> done in 0.02 s]
+[2021-03-25 00:20:41,656] [INFO] [<<__main__.CountEncodingBlock object at 0x130662b20>_fit> start]
+[2021-03-25 00:20:41,684] [INFO] [<<__main__.CountEncodingBlock object at 0x130662b20>_fit> done in 0.03 s]
+[2021-03-25 00:20:41,687] [INFO] [<<__main__.StringLengthBlock object at 0x1306624c0>_fit> start]
+[2021-03-25 00:20:41,723] [INFO] [<<__main__.StringLengthBlock object at 0x1306624c0>_fit> done in 0.04 s]
+[2021-03-25 00:20:41,727] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662e20>_fit> start]
+[2021-03-25 00:20:42,043] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662e20>_fit> done in 0.32 s]
+[2021-03-25 00:20:42,048] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662460>_fit> start]
+[2021-03-25 00:20:42,262] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662460>_fit> done in 0.21 s]
+[2021-03-25 00:20:42,271] [INFO] [<<__main__.CrosstabCountBlock object at 0x1306623d0>_fit> start]
+[2021-03-25 00:20:42,550] [INFO] [<<__main__.CrosstabCountBlock object at 0x1306623d0>_fit> done in 0.28 s]
+[2021-03-25 00:20:42,561] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662b80>_fit> start]
+[2021-03-25 00:20:42,619] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662b80>_fit> done in 0.06 s]
+[2021-03-25 00:20:42,630] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x130ae0430>_transform> start]
+[2021-03-25 00:20:42,644] [INFO] [<<__main__.OrdinalEncodingBlock object at 0x130ae0430>_transform> done in 0.01 s]
+[2021-03-25 00:20:42,646] [INFO] [<<__main__.CountEncodingBlock object at 0x130662b20>_transform> start]
+[2021-03-25 00:20:42,661] [INFO] [<<__main__.CountEncodingBlock object at 0x130662b20>_transform> done in 0.01 s]
+[2021-03-25 00:20:42,664] [INFO] [<<__main__.StringLengthBlock object at 0x1306624c0>_transform> start]
+[2021-03-25 00:20:42,690] [INFO] [<<__main__.StringLengthBlock object at 0x1306624c0>_transform> done in 0.03 s]
+[2021-03-25 00:20:42,694] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662e20>_transform> start]
+[2021-03-25 00:20:42,707] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662e20>_transform> done in 0.01 s]
+[2021-03-25 00:20:42,712] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662460>_transform> start]
+[2021-03-25 00:20:42,728] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662460>_transform> done in 0.02 s]
+[2021-03-25 00:20:42,735] [INFO] [<<__main__.CrosstabCountBlock object at 0x1306623d0>_transform> start]
+[2021-03-25 00:20:42,759] [INFO] [<<__main__.CrosstabCountBlock object at 0x1306623d0>_transform> done in 0.02 s]
+[2021-03-25 00:20:42,767] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662b80>_transform> start]
+[2021-03-25 00:20:42,785] [INFO] [<<__main__.CrosstabCountBlock object at 0x130662b80>_transform> done in 0.02 s]
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Users/azupero/.pyenv/versions/3.8.6/lib/python3.8/logging/__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/Users/azupero/.pyenv/versions/3.8.6/lib/python3.8/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/Users/azupero/.pyenv/versions/3.8.6/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/azupero/data-science/atmaCup/atmaCup-10/.venv/lib/python3.8/site-packages/ipykernel/parentpoller.py", line 34, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'
+Arguments: ()

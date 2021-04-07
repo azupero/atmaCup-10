@@ -1,0 +1,14 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Users/azupero/.pyenv/versions/3.8.6/lib/python3.8/logging/__init__.py", line 1084, in emit
+    stream.write(msg + self.terminator)
+BrokenPipeError: [Errno 32] Broken pipe
+Call stack:
+  File "/Users/azupero/.pyenv/versions/3.8.6/lib/python3.8/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/Users/azupero/.pyenv/versions/3.8.6/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/azupero/data-science/atmaCup/atmaCup-10/.venv/lib/python3.8/site-packages/ipykernel/parentpoller.py", line 34, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'
+Arguments: ()

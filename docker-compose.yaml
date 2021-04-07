@@ -1,0 +1,11 @@
+version: '3'
+services:
+  atmacup-10:
+    build: ./
+    image: atmacup-10
+    container_name: atmacup-10
+    user: root
+    volumes:
+      - $PWD:/working
+    working_dir: /working
+    tty: true

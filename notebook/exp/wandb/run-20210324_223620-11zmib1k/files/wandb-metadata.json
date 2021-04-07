@@ -1,0 +1,26 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.8.6",
+    "heartbeatAt": "2021-03-24T13:36:20.996457",
+    "startedAt": "2021-03-24T13:36:20.092777",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9013",
+        "--control=9011",
+        "--hb=9010",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"c9c89c33-7e31-4f47-b300-20cf280326d1\"",
+        "--shell=9012",
+        "--transport=\"tcp\"",
+        "--iopub=9014",
+        "--f=/var/folders/b3/mbytz3x97klg40j_55flbzrh0000gn/T/tmp-654023F2H2fUE5aKk.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "HarukanoMacBook-Pro.local",
+    "username": "azupero",
+    "executable": "/Users/azupero/data-science/atmaCup/atmaCup-10/.venv/bin/python"
+}

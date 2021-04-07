@@ -1,0 +1,67 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.23
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.6
+    t:
+      1:
+      - 5
+      - 8
+      4: 3.8.6
+      5: 0.10.23
+      8:
+      - 1
+      - 5
+bagging_fraction:
+  desc: null
+  value: 0.9
+bagging_freq:
+  desc: null
+  value: 3
+boosting_type:
+  desc: null
+  value: gbdt
+early_stopping_round:
+  desc: null
+  value: 100
+feature_fraction:
+  desc: null
+  value: 0.9
+lambda_l1:
+  desc: null
+  value: 0.01
+lambda_l2:
+  desc: null
+  value: 0.01
+learning_rate:
+  desc: null
+  value: 0.01
+max_depth:
+  desc: null
+  value: 5
+metric:
+  desc: null
+  value: rmse
+min_data_in_leaf:
+  desc: null
+  value: 20
+num_iterations:
+  desc: null
+  value: 10000
+num_leaves:
+  desc: null
+  value: 32
+num_threads:
+  desc: null
+  value: 8
+objective:
+  desc: null
+  value: regression
+verbosity:
+  desc: null
+  value: -1
